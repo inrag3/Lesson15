@@ -14,6 +14,5 @@ int DaysInYear(int y);
 int DaysInYearRange(int y, int y1);
 //Cчитает количество секунд в данном количестве часов.
 int SeconsInHours(int h);
-
 /*DATE_h*/
 #endif
