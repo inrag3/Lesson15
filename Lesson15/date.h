@@ -12,6 +12,7 @@ int LaterInYear(int d, int m, int d1, int m1);
 int DaysInYear(int y);
 //ќпредел€юет суммарное количество дней во всех годах наход€щихс€ между заданными годами включительно
 int DaysInYearRange(int y, int y1);
-
+//Cчитает количество секунд в данном количестве часов.
+int SeconsInHours(int h);
 /*DATE_h*/
 #endif
