@@ -8,6 +8,10 @@
 bool IsLeapYear(int y);
 //Проверяющую, какой из двух дней ближе к Новому году
 int LaterInYear(int d, int m, int d1, int m1);
+//Определяющую количество дней в данном году
+int DaysInYear(int y);
+//Определяюет суммарное количество дней во всех годах находящихся между заданными годами включительно
+int DaysInYearRange(int y, int y1);
 
 /*DATE_h*/
 #endif
