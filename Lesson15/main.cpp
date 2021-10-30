@@ -12,5 +12,7 @@ int main()
 	assert(DaysInYear(2012) == 366);
 
 	assert(DaysInYearRange(2011,2012) == 731);
-	
+
+	assert(SeconsInHours(3) == 10800);
+	assert(SeconsInHours(1) == 3600);
 }
